@@ -7,9 +7,8 @@
 
  /*The below ccs ic for contact_us.html*/
 .cu {background-color: rgb(212, 179, 139);}
-.h1 {text-align: center; font-family: 'Times New Roman', Times, serif; color: brown;}
 .nd {text-align: center;}
-.section {text-align: center;}
+.sh {text-align: center;}
 .hd {
     color: brown; text-align: center;}
 .hd1 {
@@ -19,3 +18,23 @@
    
     .div {text-align: center;}
 /*The above ccs ic for contact_us.html*/
+
+
+
+/*The below ccs ic for Ayesha_4.html*/
+.bp4 {background-color: aqua;}
+.bph1 {color: crimson; text-align: center; font-family: 'Courier New', Courier, monospace;}
+.bph3 {color: crimson; font-family: 'Courier New', Courier, monospace;}
+.bpbody {text-align: center;}
+.bpais1 {font-family: 'Times New Roman', Times, serif; color: black; border: 1px solid black;}
+.bpp {text-align: center;}
+/*The above ccs ic for Ayesha_4.html*/
+
+
+
+/*The below ccs ic for Ayesha_3.html*/
+.a3b {background-color: black;}
+.a3h1 {color: deeppink; text-align: center;}
+.vpl {text-align:center;}
+.a3{text-align: center; color: deeppink;}
+/*The above ccs ic for Ayesha_3.html*/

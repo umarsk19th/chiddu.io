@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
+<head>
     <link rel="stylesheet" href="Ayesha_5.css">
-    <body>
+
+    <script>
+        function validateForm() {
+          let x = document.forms["myForm"]["fname"].value;
+          if (x != "") {
+            alert("Name must be filled out " + x);
+            return false;
+          }
+        }
+    </script>
+        
+</head>    
+
+<body>
         <header>
             <h1>Waferollo<sup>&reg;</sup> Pistachio Cream Chocolates </h1>
            </header>
