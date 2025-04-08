@@ -1,9 +1,34 @@
 <!DOCTYPE html>
 <html>
+<head>
     <link rel="stylesheet" href="Ayesha_6.css">
+    <script>
+        function validateForm() {
+            let anss="";
+            
+            let x = document.forms["myForm"]["user_n"].value;
+            if (x != "") {
+                anss= anss + "Name : " + x +"\n";
+            }
+
+            x = document.forms["myForm"]["user_1"].value;
+            if (x != "") {
+                anss=anss +"Email ID : " +  x +"\n";
+            }
+
+            x = document.forms["myForm"]["user_2"].value;
+            if (x != "") {
+                anss=anss +"Message : " +  x +"\n";
+            }
+            alert("Entered data is : \n" + anss);
+            return false;
+        }
+    </script>
+</head>
     <body>
+    
         <center><h1>Today is about adding <u>Radio</u> and <u>Checkbox button</u> to form.</h1></center><br>
-        <form action="Food_quiz.html" method="get">
+         <form name="myForm" action="" onsubmit="return validateForm()" method="POST">
             <center><label for="user">Name:</label>
             <input type="text" id="user" name="" value="" required></center><br><br><br>
             <required>Favourite Chocolate:
