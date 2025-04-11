@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function Ayesha() 
+{
+  document.getElementById("SIS").innerHTML = "Hi! <b>Umar</b>";
+}
+
+function Addd() 
+{
+  let x=0;
+  x=BigInt(document.getElementById("fname").value);
+  let y=0;
+  y=BigInt(document.getElementById("lname").value);
+  let z=0;
+  z=x+y;
+  document.getElementById("anss").innerHTML="The total is " + z;
+  document.getElementById("pros").innerHTML="The Product is " + (x*y);
+  document.getElementById("divs").innerHTML="The total is " + (x/y);
+
+}
+</script>
+</head>
+
+<body onload="Ayesha()"> 
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+<p id="SIS"></p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+
+<h2>Adding Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Enter any number A: </label>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Enter any number B: </label>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <br>
+  <p id="anss"></p>
+  <p id="pros"></p>
+  <p id="divs"></p>
+  <br><br>
+  <button type="button" onclick='Addd()'>Add A and B</button>
+</form> 
+
+
+
+
+</body>
+</html>
